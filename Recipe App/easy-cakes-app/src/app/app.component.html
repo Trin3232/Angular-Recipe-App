@@ -1,0 +1,27 @@
+<!--App code generated from components-->
+<div class="container">
+ <app-home></app-home>
+ <!-- <app-about></app-about> -->
+ <nav>
+  <a routerLink="/home">Home</a>
+ </nav>
+   <nav>
+     <a routerLink="/about">About</a>
+   </nav>
+<div *ngFor="let r of recipes">
+  <h3>{{r.title}}</h3>
+  <img src="{{r.image}}"/>
+  <ul *ngFor="let il of r.ingredientsList">
+    <li>
+      {{il}}
+    </li>
+  </ul>
+  <p>
+    {{r.unitOfMeasurement}}
+  </p>
+  <p>
+    {{r.method}}
+  </p>
+</div>
+  <router-outlet></router-outlet>
+</div>
