@@ -4,7 +4,9 @@ $color-light-orange: #e7ad6f;
 $color-grey: #787878;
 $color-dark-grey: #525252;
 $color-black: #000000;
-$color-black: #000000;
+$color-purple: #7229b3;
+$color-yellow: #e7cb5a;
+$color-white: #ffffff;
 
 body, html {
   height: 100%;
@@ -34,7 +36,7 @@ body {
     color: $color-dark-grey;
    }
      h3 {
-       color: $color-dark-grey;
+       color: $color-white;
        text-decoration: underline;
      }
       img {
