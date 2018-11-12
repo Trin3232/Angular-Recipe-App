@@ -7,7 +7,7 @@ import { Recipe } from './recipe';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Cakes App';
+  title = '';
   recipes: Recipe[]
   constructor() {
     this.recipes = [{
