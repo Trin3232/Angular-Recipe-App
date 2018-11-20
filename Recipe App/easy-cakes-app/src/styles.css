@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+body, html {
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e7ad6f;
+  font-weight: normal;
+  font-size: 17.5px;
+  color: #787878;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+.container h1 {
+  color: #525252;
+}
+
+.container h3 {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.container img {
+  height: 50vh;
+}
+
+.container li {
+  text-transform: uppercase;
+  color: #525252;
+}
+/*# sourceMappingURL=styles.css.map */
